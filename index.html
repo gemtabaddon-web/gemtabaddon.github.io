@@ -1,19 +1,84 @@
 <!DOCTYPE html>
-<html lang="ENG">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Gem T Abaddon</title>
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 40px;
+            margin-bottom: 5px;
+            font-size: 42px;
+        }
+
+        h2 {
+            margin-top: 0;
+            font-weight: normal;
+            font-size: 20px;
+        }
+
+        .musica {
+            position: absolute;
+            top: 25px;
+            right: 30px;
+        }
+
+        .menus {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 60px;
+        }
+
+        .menus img {
+            width: 30%;
+            max-width: 400px;
+            cursor: pointer;
+            transition: transform 0.25s ease;
+        }
+
+        .menus img:hover {
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>Gem T Abaddon</h1>
+    <div class="musica">
+        🎵 Música
+    </div>
 
-    <div>
-        <button>Level 1 CINEMA</button>
-        <button>Level 2 PUBLIC EVENTS</button>
-        <button>Level 3 11 </button>
+    <h1>Gem T Abaddon</h1>
+    <h2>Numbers and language</h2>
+
+    <div class="menus">
+
+        <a href="#menu1">
+            <img src="1.png" alt="Menu 1">
+        </a>
+
+        <a href="#menu2">
+            <img src="2.png" alt="Menu 2">
+        </a>
+
+        <a href="#menu3">
+            <img src="3.png" alt="Menu 3">
+        </a>
+
     </div>
 
 </body>
+
 </html>
