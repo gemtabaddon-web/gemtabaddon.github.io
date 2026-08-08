@@ -40,10 +40,13 @@
         }
 
         .title-image {
-    width: 140px;
-    height: 140px;
-            object-fit: contain;
-        }
+    width: 220px;
+    height: 220px;
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    object-fit: contain;
+}
 
         h1 {
             margin: 0;
@@ -60,7 +63,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 25px;
+    gap: 50px;
     width: 95vw;
 }
 
@@ -77,7 +80,7 @@
         }
 
         .menus img:hover {
-            transform: scale(1.05);
+            transform: scale(1.11);
         }
 
         .musica {
@@ -85,6 +88,50 @@
             top: 25px;
             right: 30px;
         }
+
+@media (max-width: 700px) {
+
+    .main-page {
+        padding: 30px 15px;
+    }
+
+    .title-image {
+        width: 100px;
+        height: 100px;
+        top: 15px;
+        left: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .title-area {
+        margin-top: 80px;
+        margin-bottom: 35px;
+    }
+
+    .menus {
+        flex-direction: column;
+        gap: 35px;
+        width: 90vw;
+    }
+
+    .menus a {
+        width: 90%;
+    }
+
+    .musica {
+        top: 15px;
+        right: 15px;
+    }
+}
+        
+        
     </style>
 </head>
 
